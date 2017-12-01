@@ -43,7 +43,7 @@ namespace HandRecognition.WindowsApp
                 Application.Exit();
             }
 
-            LoadingForm loadingForm = new LoadingForm(@"C:\Users\Jonathan\Documents\visual studio 2017\Projects\HandRecognition\HandRecognition.WindowsApp\neuralnetwork.gz");
+            LoadingForm loadingForm = new LoadingForm(@"neuralnetwork.gz");
             if (loadingForm.ShowDialog(this) == DialogResult.Cancel)
             {
                 Application.Exit();
